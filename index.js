@@ -1,5 +1,14 @@
 let decimal = prompt("What is your decimal?");
 
+let remainder1 = decimal % 2;
+let binary = (decimal / 2) ;
+
+let remainder2 = binary % 2;
+binary = (binary / 2);
+
+let remainder3 = decimal % 2;
+binary = (binary / 2);
+
 if(remainder1 == 10) {
     remainder1 = "A"
 };
@@ -20,4 +29,4 @@ if(remainder1 == 15) {
 };
 
 
-console.log(`You have ${hexidecimal}`);
+console.log(`You have ${binary}`);
