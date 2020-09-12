@@ -9,14 +9,14 @@ binary = (binary / 2);
 let remainder3 = decimal % 2;
 binary = (binary / 2);
 
-if(remainder1 == 10) {
-    remainder1 = "A"
+if(remainder1 == 1) {
+    remainder1 = "1"
 };
-if(remainder1 == 11) {
-    remainder1 = "B"
+if(remainder1 == 0) {
+    remainder1 = "0"
 };
-if(remainder1 == 12) {
-    remainder1 = "C"
+if(remainder2 == 1) {
+    remainder2 = "1"
 };
 if(remainder1 == 13) {
     remainder = "D"
