@@ -1,13 +1,15 @@
 body {
-    background-color: blanchedalmond;
+    background-color: #e8cd97;
 }
 h1 {
+    animation: headerfade 3s ease forwards;
     text-align: center;
     font-size: 60px;
     color: #847C56;
 }
 
 body {
+    animation: bodyFade 4s ease forwards;
     font-size: 19px;
     text-align: center;
     color: #847C56;
@@ -22,3 +24,20 @@ body {
   top: -1%;
 }
 
+@keyframes bodyFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes headerFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
