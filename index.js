@@ -30,3 +30,4 @@ if(remainder1 == 15) {
 
 
 console.log(`You have ${binary}`);
+
