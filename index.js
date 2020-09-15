@@ -9,6 +9,21 @@ binary = (binary / 2);
 let remainder3 = decimal % 2;
 binary = (binary / 2);
 
+let remainder4 = decimal % 2;
+binary = (binary / 2);
+
+let remainder5 = decimal % 2; 
+binary = (binary / 2);
+
+let remainder6 = decimal % 2; 
+binary = (binary / 2);
+
+let remainder7 = decimal % 2;
+binary = (binary / 2);
+
+let remainder8 = decimal % 2;
+binary = (binary / 2);
+
 if(remainder1 == 1) {
     remainder1 = "1"
 };
