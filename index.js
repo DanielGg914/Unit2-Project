@@ -44,4 +44,5 @@ if(remainder1 == 15) {
 };
 
 
-console.log(`You have ${binary}`);
+console.log(`Your decimal in binary is ${binary}`);
+console.log(`Your decimal in hexidecimal is ${hexidecimal}`);
